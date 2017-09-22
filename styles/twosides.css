@@ -14,8 +14,8 @@ header {
 }
 
 h1 {
-    float: left;
     margin: 0px;
+    float: left;
     padding: 20px;
 }
 
@@ -29,52 +29,48 @@ li {
     margin: 10px;
     padding-right: 50px;
     float: left;
+    text-align: center;
     list-style-type: none;
-}
-
-h2 {
-    margin: auto;
-    text-align: center;
-    padding: 40px;
+    text-decoration: none;
     box-sizing: border-box;
 }
 
-section > p {
-    text-align: center;
-}
-
-img {
-    display: block;
-    margin: auto;
-    box-sizing: border-box;
+div {
+    float: left;
+    text-align: left;
+    margin-left: 30px;
 }
 
 section {
     padding-bottom: 50px;
-    box-sizing: border-box;
 }
 
+
 #cougar {
+    float: left;
     background: #FFBD82;
     color: #000;
 }
 
 #lion {
+    float: left;
     background: #B26219;
     color: #000;
 
 }
 
 #tiger {
+    float: left;
     background: #82E8FF;
     color: #000;
 }
 
 article {
     width: 600px;
-    background: #fff;
+    width: 50%;
+    padding: 20px 50px;
+    float: right;
     margin: auto;
-    padding: 20px 40px;
     box-sizing: border-box;
 }
 
@@ -83,6 +79,7 @@ footer {
     padding: 20px 400px;
     text-align: center;
     box-sizing: border-box;
+    clear: both;
 }
 
 /* ----- suggested colors -----
@@ -104,9 +101,11 @@ footer {
 
 /* --- links and nav --- */
 
-a { color: #379CB2;
+a {
+    color: #379CB2;
     text-decoration: none;
-  }
-a:hover { color: #82E8FF;
-          text-decoration: underline;
-          }
+}
+a:hover {
+    color: #82E8FF;
+    text-decoration: underline;
+}
